@@ -16,8 +16,8 @@ jobs:
       - uses: xu-cheng/latex-action@v3
         with:
           root_file: | 
-          main-uniformisation.tex
-          presentation.tex
+            main-uniformisation.tex
+            presentation.tex
       # From here it is copied from : https://github.com/jonhue/pubtex-action
       # with a few modifications
       - name: Move PDFs
